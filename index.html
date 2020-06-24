@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Dancing+Script:wght@600&family=Source+Serif+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="column-1">
+        <div class="profile">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5589a812e4b0248058743f7e/1562001389112-WFLCO7JEU2GDDM9ANYXT/ke17ZwdGBToddI8pDm48kMh3mVmBaCAeGwqCLG3iONRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PITeQtWPcxF65ANawkK25DREOmFck9peR6QL8AnpRiPJE/LAURA+PROFILE+CIRCLE+NEW.png"
+            alt="profile pic"
+            class="img-circle"
+          />
+          <p class="meta">@sara_mathews</p>
+          <h2 class="heading-primary">Sara Mathews</h2>
+        </div>
+        <nav id="navbar">
+          <ul>
+            <li>
+              <a href="" class="active fa fa-newspaper-o"> &ensp; News-Feed</a>
+            </li>
+            <li><a href="" class="fa fa-user"> &ensp; Add-Friends</a></li>
+            <li><a href="" class="fa fa-users"> &ensp; Groups</a></li>
+            <li><a href="" class="fa fa-calendar"> &ensp; Events</a></li>
+            <li><a href="" class="fa fa-columns"> &ensp; Pages</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="column-2">
+        <div>
+          <header>
+            <h2>
+              &ensp; &ensp; Feed
+            </h2>
+            <p class="group">Sorted by Groups >> &ensp; &ensp;</p>
+          </header>
+        </div>
+        <div>
+          <section class="post">
+            <p>&ensp;What's you feeling now</p>
+          </section>
+        </div>
+        <div class="NewsFeed">
+          <p style="float: left;">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXAjRiIVrov0IwQB0jjilumUqr06Q-SD6cpaSwPJjjaYi6u8lH&usqp=CAU"
+              alt=""
+              class="img-newfeed"
+            />
+          </p>
+          <h4 class="Newsfeed-h">&ensp; Selina Gomej</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            esse, sequi adipisci quis libero recusandae aspernatur obcaecati est
+            possimus iusto quasi quam ducimus rerum vero magni cumque sunt quos
+            dolorum nam necessitatibus voluptatum Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Doloribus odio voluptate quibusdam
+            consequuntur.
+          </p>
+          <p>
+            <button class="btn fa fa-thumbs-o-up">&ensp; Like</button>
+            <button class="btn fa fa-comment">&ensp; Comment</button>
+            <button class="btn fa fa-share">&ensp; Share</button>
+          </p>
+          <div class="NewsFeed-2">
+            <p style="float: left;">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+                class="img-newfeed-2"
+              />
+            </p>
+            <h4 class="Newsfeed-h-2">&ensp; Mitchel harris</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur esse, sequi adipisci quis libero recusandae aspernatur
+              obcaecati est possimus iusto quasi quam ducimus rerum vero magni
+              cumque sunt quos dolorum nam necessitatibus voluptatum Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Doloribus odio
+              voluptate quibusdam consequuntur.
+            </p>
+            <p>
+              <button class="btn fa fa-thumbs-o-up">&ensp; Like</button>
+              <button class="btn fa fa-comment">&ensp; Comment</button>
+              <button class="btn fa fa-share">&ensp; Share</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="column-3">
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div class="attendence">
+          <h2>Attendence</h2>
+          <p class="beta">
+            &ensp; Sara Mathews <button class="fa fa-plus"></button>
+          </p>
+          <p class="beta">
+            &ensp; Harry Johnson <button class="fa fa-plus"></button>
+          </p>
+          <button class="btn-2">Submit Attendence</button>
+        </div>
+        <div class="birthday">
+          <h2>1-Birthday</h2>
+          <p style="float: left;">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXAjRiIVrov0IwQB0jjilumUqr06Q-SD6cpaSwPJjjaYi6u8lH&usqp=CAU"
+              alt=""
+              class="img-newfeed"
+            />
+          </p>
+          <h4 class="birthday-h">&ensp; Selina Gomej</h4>
+         </div>
+         <div class="poll">
+           <h2>Poll Results</h2>
+           <p>Sara Mathews and Poll Roberts have won the last poll respectively in girls and boys poll results.</p>
+         </div>
+      </div>
+    </div>
+    <footer>
+      &copy; &ensp; Mohd Maqbool Created With Love
+    </footer>
+  </body>
+</html>
